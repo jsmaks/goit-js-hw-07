@@ -1,0 +1,44 @@
+img {
+  display: block;
+  width: 500px;
+  height: 300px;
+}
+li {
+  list-style: none;
+  margin-left: 20px;
+  /* outline: 5px solid black; */
+}
+.listsImage {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.text-span {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+#text {
+  font-size: 50px;
+}
+.tasks {
+  outline: solid 1px gray;
+  margin: 30px 30px;
+}
